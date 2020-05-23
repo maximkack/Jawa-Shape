@@ -15,6 +15,15 @@ public class Triangle implements Shape {
         color = Colors[0];
     }
 
+/* A generator of the class */
+    public Triangle(int sideA, int sideB, int sideC, String color){
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
+        this.color = color;
+    }
+
+/* The unique method of the triangle */
     public int getHypotenuse(){
         int sideC = this.sideC;
         return sideC;

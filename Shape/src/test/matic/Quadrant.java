@@ -12,6 +12,13 @@ public  class Quadrant implements Shape {
         color = Colors[0];
     }
 
+/* A generator of the class */
+    public Quadrant(int side, String color) {
+        this.side = side;
+        this.color = color;
+    }
+
+/*  unique method of the quadrant */
     public int getSide(){
         return this.side;
     }

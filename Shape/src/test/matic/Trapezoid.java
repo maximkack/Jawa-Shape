@@ -18,14 +18,25 @@ public class Trapezoid implements Shape {
             color = Colors[0];
     }
 
-@Override
-    public void Draw() {
-    System.out.println("Hi buddy, I'm a trapezoid picture");
+/* A generator of the class */
+    public Trapezoid(int sideA, int sideB, int sideC, int sideD, String color) {
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
+        this.sideD = sideD;
+        this.color = color;
     }
 
+
+/* A unique method of the trapezoid */
     public double getHeight(){
         double height = Math.sqrt(this.sideC *this.sideD - Math.pow((this.sideA -this.sideB), 2)/4);
         return sideC;
+}
+
+@Override
+    public void Draw() {
+    System.out.println("Hi buddy, I'm a trapezoid picture");
     }
 
     @Override

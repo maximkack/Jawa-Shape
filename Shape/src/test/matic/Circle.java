@@ -12,6 +12,13 @@ public class Circle implements Shape {
         color = Colors[0];
     }
 
+/* A generator of the class */
+    public Circle(int radius, String color){
+        this.radius = radius;
+        this.color = color;
+    }
+
+/* A unique method of the circle */
     public double getRadius(){
         return this.radius;
     }
