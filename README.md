@@ -1,2 +1,2 @@
-# Jawa-Shape
-Shape classes in Jawa for test
+# Java-Shape
+Shape classes in Java for test
